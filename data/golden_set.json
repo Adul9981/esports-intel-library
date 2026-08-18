@@ -1,0 +1,1902 @@
+{
+  "generated_at": "2026-08-14T18:41:40.395465+00:00",
+  "count": 156,
+  "rows": [
+    {
+      "snapshot": "2026-08-05_cs2-tl1-fnc",
+      "series": "game1_fnatic_price_5m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.83,
+      "low_time": "13:50",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-05_cs2-tl1-fnc",
+      "series": "game1_liquid_price_5m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.165,
+      "high": 0.9995,
+      "low_time": "13:25",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-05_cs2-tl1-fnc",
+      "series": "game2_fnatic_price_5m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.445,
+      "low_time": "14:40",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-05_cs2-tl1-fnc",
+      "series": "game2_liquid_price_5m.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.55,
+      "high": 0.9995,
+      "low_time": "14:05",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-05_cs2-tl1-fnc",
+      "series": "moneyline_fnatic_price_5m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.495,
+      "low_time": "14:35",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-05_cs2-tl1-fnc",
+      "series": "moneyline_liquid_price_5m.jsonl",
+      "labels": [
+        "A3_折价修复"
+      ],
+      "low": 0.505,
+      "high": 0.9995,
+      "low_time": "13:25",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-06_lol-we-al",
+      "series": "game1_we_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.065,
+      "high": 0.9995,
+      "low_time": "13:58",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-06_lol-we-al",
+      "series": "game2_we_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转",
+        "A6_反弹确认"
+      ],
+      "low": 0.0065,
+      "high": 0.9995,
+      "low_time": "15:16",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-06_lol-we-al",
+      "series": "moneyline_we_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转",
+        "A4_下狗整场反转"
+      ],
+      "low": 0.135,
+      "high": 0.9995,
+      "low_time": "13:57",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-blg-tes",
+      "series": "game1_blg_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋",
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.955,
+      "low_time": "13:32",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-blg-tes",
+      "series": "game1_tes_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转",
+        "A6_反弹确认"
+      ],
+      "low": 0.045,
+      "high": 0.9995,
+      "low_time": "13:11",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-blg-tes",
+      "series": "game2_blg_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.655,
+      "low_time": "14:18",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-blg-tes",
+      "series": "game2_tes_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.345,
+      "high": 0.9995,
+      "low_time": "15:24",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-blg-tes",
+      "series": "moneyline_blg_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋",
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.855,
+      "low_time": "14:18",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-blg-tes",
+      "series": "moneyline_tes_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转",
+        "A4_下狗整场反转"
+      ],
+      "low": 0.145,
+      "high": 0.9995,
+      "low_time": "13:12",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-fox1-bro2",
+      "series": "game1_bfx_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋",
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.985,
+      "low_time": "10:51",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-fox1-bro2",
+      "series": "game1_bro_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转",
+        "A6_反弹确认"
+      ],
+      "low": 0.015,
+      "high": 0.9995,
+      "low_time": "10:49",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-fox1-bro2",
+      "series": "game2_bfx_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.595,
+      "low_time": "11:49",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-fox1-bro2",
+      "series": "game2_bro_price_1m.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.405,
+      "high": 0.9995,
+      "low_time": "17:09",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-fox1-bro2",
+      "series": "moneyline_bfx_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.785,
+      "low_time": "11:49",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-fox1-bro2",
+      "series": "moneyline_bro_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转",
+        "A4_下狗整场反转"
+      ],
+      "low": 0.215,
+      "high": 0.9995,
+      "low_time": "10:46",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-hle-drxc",
+      "series": "game1_hle_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.545,
+      "low_time": "05:37",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-hle-drxc",
+      "series": "game2_hle_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转",
+        "A5_W型双底"
+      ],
+      "low": 0.165,
+      "high": 0.9995,
+      "low_time": "06:01",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-hle-drxc",
+      "series": "moneyline_hle_price_1m.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.055,
+      "high": 0.865,
+      "low_time": "06:14",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-we-tt",
+      "series": "game1_tt_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.325,
+      "high": 0.9995,
+      "low_time": "09:31",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-we-tt",
+      "series": "game1_we_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.675,
+      "low_time": "10:11",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-we-tt",
+      "series": "moneyline_tt_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转",
+        "A4_下狗整场反转"
+      ],
+      "low": 0.275,
+      "high": 0.9995,
+      "low_time": "09:31",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "2026-08-07_lol-we-tt",
+      "series": "moneyline_we_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.725,
+      "low_time": "12:07",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-ace1-van1-2026-08-07",
+      "series": "cs2-ace1-van1-2026-08-07_acend_price_1min.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.595,
+      "high": 0.9995,
+      "low_time": "06:29",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-ace1-van1-2026-08-07",
+      "series": "cs2-ace1-van1-2026-08-07_vandulken_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.405,
+      "low_time": "17:42",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-ace1-van1-2026-08-07",
+      "series": "game1_acend_price_1min.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.465,
+      "high": 0.9995,
+      "low_time": "06:26",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-ace1-van1-2026-08-07",
+      "series": "game1_vandulken_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.535,
+      "low_time": "16:59",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-ace1-van1-2026-08-07",
+      "series": "game2_acend_price_1min.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.485,
+      "high": 0.9995,
+      "low_time": "06:26",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-ace1-van1-2026-08-07",
+      "series": "game2_vandulken_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.515,
+      "low_time": "17:42",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-bb3-faze-2026-08-12",
+      "series": "winner_bb3_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.505,
+      "low_time": "终局",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-bb3-faze-2026-08-12",
+      "series": "winner_faze_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.495,
+      "high": 1.0,
+      "low_time": "23:11",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fnc-k271-2026-08-09",
+      "series": "moneyline_k27_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.06,
+      "high": 1.0,
+      "low_time": "01:08",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fnc-k271-2026-08-09",
+      "series": "map2_k27_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.11,
+      "high": 1.0,
+      "low_time": "01:07",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fnc-k271-2026-08-09",
+      "series": "map1_k27_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.43,
+      "low_time": "00:10",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fokus-par3-2026-08-07",
+      "series": "cs2-fokus-par3-2026-08-07_fokus_price_1min.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.695,
+      "high": 0.9995,
+      "low_time": "17:10",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fokus-par3-2026-08-07",
+      "series": "cs2-fokus-par3-2026-08-07_partizan_esport_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.305,
+      "low_time": "18:10",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fokus-par3-2026-08-07",
+      "series": "game1_fokus_price_1min.jsonl",
+      "labels": [
+        "A1_V型极值反转",
+        "A6_反弹确认"
+      ],
+      "low": 0.09,
+      "high": 0.9995,
+      "low_time": "17:14",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fokus-par3-2026-08-07",
+      "series": "game1_partizan_esport_price_1min.jsonl",
+      "labels": [
+        "B2_死亡螺旋",
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.855,
+      "low_time": "17:26",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fokus-par3-2026-08-07",
+      "series": "game2_fokus_price_1min.jsonl",
+      "labels": [
+        "A3_折价修复"
+      ],
+      "low": 0.465,
+      "high": 0.9995,
+      "low_time": "16:19",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fokus-par3-2026-08-07",
+      "series": "game2_partizan_esport_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.535,
+      "low_time": "18:15",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-fut-mouz-2026-08-14",
+      "series": "map1_mouz_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.007,
+      "high": 0.51,
+      "low_time": "21:57",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-lone-pha-2026-08-07",
+      "series": "cs2-lone-pha-2026-08-07_levelone_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.225,
+      "low_time": "17:40",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-lone-pha-2026-08-07",
+      "series": "cs2-lone-pha-2026-08-07_phantom_price_1min.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.775,
+      "high": 0.9995,
+      "low_time": "06:26",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-lone-pha-2026-08-07",
+      "series": "game1_levelone_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.44,
+      "low_time": "16:51",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-lone-pha-2026-08-07",
+      "series": "game1_phantom_price_1min.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.565,
+      "high": 0.9995,
+      "low_time": "06:26",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-lone-pha-2026-08-07",
+      "series": "game2_levelone_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.505,
+      "low_time": "17:41",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-lone-pha-2026-08-07",
+      "series": "game2_phantom_price_1min.jsonl",
+      "labels": [
+        "A3_折价修复"
+      ],
+      "low": 0.495,
+      "high": 0.9995,
+      "low_time": "16:03",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-prv-b8-2026-08-12",
+      "series": "winner_b8_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.085,
+      "high": 0.52,
+      "low_time": "23:26",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-shu1-nrg-2026-08-07",
+      "series": "cs2-shu1-nrg-2026-08-07_nrg_price_1min.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.513,
+      "high": 0.9995,
+      "low_time": "19:46",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-shu1-nrg-2026-08-07",
+      "series": "cs2-shu1-nrg-2026-08-07_spirit_hu_price_1min.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.0005,
+      "high": 0.486,
+      "low_time": "17:44",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-shu1-nrg-2026-08-07",
+      "series": "game1_nrg_price_1min.jsonl",
+      "labels": [
+        "C2_五五开开局碾压"
+      ],
+      "low": 0.44,
+      "high": 0.9995,
+      "low_time": "13:54",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-shu1-nrg-2026-08-07",
+      "series": "game1_spirit_hu_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.56,
+      "low_time": "17:09",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-shu1-nrg-2026-08-07",
+      "series": "game2_nrg_price_1min.jsonl",
+      "labels": [
+        "C2_五五开开局碾压",
+        "A5_W型双底"
+      ],
+      "low": 0.45,
+      "high": 0.9995,
+      "low_time": "16:00",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-shu1-nrg-2026-08-07",
+      "series": "game2_spirit_hu_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.535,
+      "low_time": "17:44",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-vael-og1-2026-08-07",
+      "series": "cs2-vael-og1-2026-08-07_og_price_1min.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.775,
+      "high": 0.9995,
+      "low_time": "06:21",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-vael-og1-2026-08-07",
+      "series": "cs2-vael-og1-2026-08-07_vael_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.225,
+      "low_time": "17:44",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-vael-og1-2026-08-07",
+      "series": "game1_og_price_1min.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.49,
+      "high": 0.9995,
+      "low_time": "15:38",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-vael-og1-2026-08-07",
+      "series": "game1_vael_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.51,
+      "low_time": "17:02",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-vael-og1-2026-08-07",
+      "series": "game2_og_price_1min.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.48,
+      "high": 0.9995,
+      "low_time": "15:37",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "cs2-vael-og1-2026-08-07",
+      "series": "game2_vael_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.52,
+      "low_time": "17:45",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-mouz-re-2026-08-11",
+      "series": "game2_re_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.27,
+      "high": 1.0,
+      "low_time": "21:14",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-mouz-re-2026-08-11",
+      "series": "moneyline_re_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.175,
+      "high": 0.615,
+      "low_time": "21:15",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-mouz-re-2026-08-11",
+      "series": "game1_re_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.55,
+      "low_time": "20:45",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-pr1-mouz-2026-08-10",
+      "series": "moneyline_mouz_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.11,
+      "high": 0.835,
+      "low_time": "18:21",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-pr1-mouz-2026-08-10",
+      "series": "game2_mouz_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.185,
+      "high": 1.0,
+      "low_time": "18:22",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-pr1-mouz-2026-08-10",
+      "series": "game1_mouz_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.58,
+      "low_time": "17:49",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-ts8-aur1-2026-08-13",
+      "series": "game1_aurora_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.82,
+      "low_time": "11:08",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-ts8-aur1-2026-08-13",
+      "series": "game2_aurora_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.625,
+      "low_time": "12:17",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-ts8-aur1-2026-08-13",
+      "series": "moneyline_aurora_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.585,
+      "low_time": "12:15",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-vsn2-flc-2026-08-13",
+      "series": "moneyline_vision_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.255,
+      "high": 0.84,
+      "low_time": "21:23",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-vsn2-flc-2026-08-13",
+      "series": "game2_vision_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.54,
+      "high": 1.0,
+      "low_time": "17:05",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-vsn2-flc-2026-08-13",
+      "series": "game1_vision_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.935,
+      "low_time": "19:16",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-yes-lvlup1-2026-08-10",
+      "series": "moneyline_levelup_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.095,
+      "high": 1.0,
+      "low_time": "00:32",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-yes-lvlup1-2026-08-10",
+      "series": "game2_levelup_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.18,
+      "high": 1.0,
+      "low_time": "00:30",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "dota2-yes-lvlup1-2026-08-10",
+      "series": "game1_levelup_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.535,
+      "low_time": "23:58",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-blg-jdg-2026-08-12",
+      "series": "game1_jdg_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.345,
+      "low_time": "21:19",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-blg-jdg-2026-08-12",
+      "series": "game2_jdg_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.275,
+      "high": 1.0,
+      "low_time": "21:10",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-blg-jdg-2026-08-12",
+      "series": "moneyline_jdg_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.105,
+      "high": 1.0,
+      "low_time": "21:08",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-cfo-gz-2026-08-09",
+      "series": "game3_cfo_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.35,
+      "high": 0.925,
+      "low_time": "19:27",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-cfo-gz-2026-08-09",
+      "series": "game2_cfo_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.245,
+      "high": 1.0,
+      "low_time": "18:54",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dk-kt-2026-08-09",
+      "series": "game2_dk_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.37,
+      "high": 1.0,
+      "low_time": "17:13",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dk-kt-2026-08-09",
+      "series": "moneyline_dk_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.235,
+      "high": 0.985,
+      "low_time": "17:13",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dk-kt-2026-08-09",
+      "series": "game1_dk_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.585,
+      "low_time": "16:34",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dnf-drx-2026-08-10",
+      "series": "game2_dns_price_1m.jsonl",
+      "labels": [
+        "A5_W型双底"
+      ],
+      "low": 0.195,
+      "high": 0.995,
+      "low_time": "18:35",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dnf-drx-2026-08-10",
+      "series": "moneyline_dns_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.115,
+      "high": 1.0,
+      "low_time": "18:35",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dnf-drx-2026-08-10",
+      "series": "game1_dns_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.775,
+      "low_time": "17:41",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dnf-drx-2026-08-10",
+      "series": "ou_over_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.185,
+      "high": 1.0,
+      "low_time": "18:35",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dnf-ns-2026-08-12",
+      "series": "game1_ns_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.425,
+      "high": 1.0,
+      "low_time": "16:12",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dnf-ns-2026-08-12",
+      "series": "game2_dns_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.32,
+      "high": 1.0,
+      "low_time": "16:57",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-dnf-ns-2026-08-12",
+      "series": "moneyline_dns_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.145,
+      "high": 1.0,
+      "low_time": "16:57",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-drx-fox1-2026-08-13",
+      "series": "game1_bfx_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.73,
+      "low_time": "16:40",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-drx-fox1-2026-08-13",
+      "series": "game2_bfx_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.535,
+      "high": 1.0,
+      "low_time": "16:29",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-drx-fox1-2026-08-13",
+      "series": "moneyline_bfx_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.295,
+      "high": 1.0,
+      "low_time": "17:05",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-drxc-foxy-2026-08-11",
+      "series": "game2_drxc_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.705,
+      "low_time": "17:29",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-drxc-foxy-2026-08-11",
+      "series": "game1_drxc_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.295,
+      "high": 1.0,
+      "low_time": "16:16",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-fnc-kc-2026-08-09",
+      "series": "game1_kc_price_1m.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.725,
+      "high": 1.0,
+      "low_time": "01:19",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-fnc-kc-2026-08-09",
+      "series": "game2_kc_price_1m.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.66,
+      "high": 1.0,
+      "low_time": "02:14",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-fnc-kc-2026-08-09",
+      "series": "moneyline_kc_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.645,
+      "high": 1.0,
+      "low_time": "08-05 15:40",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-fox1-drx-2026-08-09",
+      "series": "game2_drx_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.615,
+      "low_time": "20:36",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-fox1-drx-2026-08-09",
+      "series": "moneyline_drx_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.565,
+      "low_time": "20:36",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-fox1-drx-2026-08-09",
+      "series": "handicap_drx_plus1_5_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.785,
+      "low_time": "20:36",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-gen-dnf-2026-08-10",
+      "series": "moneyline_dns_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.055,
+      "high": 0.925,
+      "low_time": "19:59",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-gen-dnf-2026-08-10",
+      "series": "game1_dns_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.075,
+      "high": 1.0,
+      "low_time": "20:05",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-gen-dnf-2026-08-10",
+      "series": "game2_dns_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.13,
+      "high": 0.995,
+      "low_time": "20:06",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-gen-hle1-2026-08-13",
+      "series": "game2_gen_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.251,
+      "high": 1.0,
+      "low_time": "20:36",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-gen-hle1-2026-08-13",
+      "series": "game1_gen_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.345,
+      "high": 1.0,
+      "low_time": "19:17",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-gen-hle1-2026-08-13",
+      "series": "moneyline_gen_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.445,
+      "high": 1.0,
+      "low_time": "19:17",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-gx-vit-2026-08-14",
+      "series": "game2_vit_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.94,
+      "low_time": "02:27",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-gx-vit-2026-08-14",
+      "series": "game1_vit_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.535,
+      "high": 1.0,
+      "low_time": "13:43",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-hle1-dnf-2026-08-11",
+      "series": "moneyline_dns_price_1m.jsonl",
+      "labels": [
+        "A3_折价修复"
+      ],
+      "low": 0.185,
+      "high": 0.755,
+      "low_time": "15:32",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-hle1-dnf-2026-08-11",
+      "series": "game1_dns_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.275,
+      "high": 1.0,
+      "low_time": "14:52",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-hle1-dnf-2026-08-11",
+      "series": "game2_dns_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.275,
+      "high": 1.0,
+      "low_time": "02:54",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-hle1-dnf-2026-08-11",
+      "series": "game3_dns_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.28,
+      "high": 1.0,
+      "low_time": "04:18",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-hle1-gen-2026-08-10",
+      "series": "ou_over_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.225,
+      "high": 0.995,
+      "low_time": "15:16",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-hle1-gen-2026-08-10",
+      "series": "moneyline_hle_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.115,
+      "high": 1.0,
+      "low_time": "15:15",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-hle1-gen-2026-08-10",
+      "series": "game2_hle_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.215,
+      "high": 1.0,
+      "low_time": "15:16",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-hle1-gen-2026-08-10",
+      "series": "game1_hle_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.61,
+      "low_time": "14:45",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-jdg-edg-2026-08-07",
+      "series": "game1_edward_gaming_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.285,
+      "low_time": "08:08",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-jdg-edg-2026-08-07",
+      "series": "game1_jd_gaming_price_1min.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.715,
+      "high": 0.9995,
+      "low_time": "06:22",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-jdg-edg-2026-08-07",
+      "series": "game2_edward_gaming_price_1min.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.0005,
+      "high": 0.275,
+      "low_time": "09:07",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-jdg-edg-2026-08-07",
+      "series": "game2_jd_gaming_price_1min.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.725,
+      "high": 0.9995,
+      "low_time": "06:21",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-jdg-edg-2026-08-07",
+      "series": "moneyline_edward_gaming_price_1min.jsonl",
+      "labels": [
+        "未知"
+      ],
+      "low": 0.0005,
+      "high": 0.18,
+      "low_time": "09:03",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-jdg-edg-2026-08-07",
+      "series": "moneyline_jd_gaming_price_1min.jsonl",
+      "labels": [
+        "A3_折价修复",
+        "热门全程压制"
+      ],
+      "low": 0.82,
+      "high": 0.9995,
+      "low_time": "07:56",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-kt-dk-2026-08-12",
+      "series": "game1_dk_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.565,
+      "high": 1.0,
+      "low_time": "19:09",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-kt-dk-2026-08-12",
+      "series": "game2_dk_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.34,
+      "high": 1.0,
+      "low_time": "20:04",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-kt-dk-2026-08-12",
+      "series": "moneyline_dk_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.625,
+      "high": 1.0,
+      "low_time": "08-11 23:52",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-mvk-cfo-2026-08-14",
+      "series": "g3_cfo_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.385,
+      "high": 1.0,
+      "low_time": "19:10",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-ns-bro2-2026-08-14",
+      "series": "game1_ns_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.505,
+      "high": 1.0,
+      "low_time": "05:12",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-ns-bro2-2026-08-14",
+      "series": "game2_ns_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.325,
+      "high": 0.805,
+      "low_time": "20:23",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-ns-bro2-2026-08-14",
+      "series": "moneyline_ns_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.495,
+      "high": 0.895,
+      "low_time": "16:55",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-nsea-dkc-2026-08-11",
+      "series": "ou_over_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.055,
+      "high": 1.0,
+      "low_time": "20:18",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-nsea-dkc-2026-08-11",
+      "series": "game2_dk_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.045,
+      "high": 1.0,
+      "low_time": "20:18",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-nsea-dkc-2026-08-11",
+      "series": "moneyline_dk_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.015,
+      "high": 1.0,
+      "low_time": "20:18",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-shft-sk-2026-08-14",
+      "series": "game1_sk_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.585,
+      "high": 1.0,
+      "low_time": "23:17",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-shft-sk-2026-08-14",
+      "series": "game2_sk_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.395,
+      "high": 0.995,
+      "low_time": "00:15",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-shft-sk-2026-08-14",
+      "series": "moneyline_sk_price_1m.jsonl",
+      "labels": [
+        "热门全程压制"
+      ],
+      "low": 0.525,
+      "high": 0.945,
+      "low_time": "23:18",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-t1-dk-2026-08-14",
+      "series": "moneyline_dk_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.195,
+      "high": 1.0,
+      "low_time": "16:52",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-t1-dk-2026-08-14",
+      "series": "game2_dk_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.425,
+      "high": 1.0,
+      "low_time": "16:30",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-t1-dk-2026-08-14",
+      "series": "game1_dk_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.585,
+      "low_time": "16:39",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-t1a-dkc-2026-08-13",
+      "series": "game1_t1a_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.655,
+      "low_time": "11:44",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-t1a-dkc-2026-08-13",
+      "series": "game2_t1a_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.975,
+      "low_time": "12:39",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-t1a-dkc-2026-08-13",
+      "series": "moneyline_t1a_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.675,
+      "low_time": "终局",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-tes-lgd-2026-08-13",
+      "series": "game2_lgd_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.095,
+      "high": 1.0,
+      "low_time": "19:37",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-tes-lgd-2026-08-13",
+      "series": "game1_lgd_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.195,
+      "high": 1.0,
+      "low_time": "18:34",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-tes-lgd-2026-08-13",
+      "series": "moneyline_lgd_price_1m.jsonl",
+      "labels": [
+        "A1_V型极值反转"
+      ],
+      "low": 0.165,
+      "high": 1.0,
+      "low_time": "18:33",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-tt-blg-2026-08-13",
+      "series": "moneyline_tt_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.19,
+      "low_time": "22:23",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-tt-blg-2026-08-13",
+      "series": "game1_tt_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.35,
+      "low_time": "21:34",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-tt-blg-2026-08-13",
+      "series": "game2_tt_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.255,
+      "low_time": "22:23",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-wb-nip-2026-08-13",
+      "series": "game2_wbg_price_1m.jsonl",
+      "labels": [
+        "A2_中位U型反转"
+      ],
+      "low": 0.275,
+      "high": 1.0,
+      "low_time": "15:00",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-wb-nip-2026-08-13",
+      "series": "moneyline_wbg_price_1m.jsonl",
+      "labels": [
+        "B2_死亡螺旋"
+      ],
+      "low": 0.001,
+      "high": 0.485,
+      "low_time": "17:45",
+      "review_status": "待复核",
+      "note": ""
+    },
+    {
+      "snapshot": "lol-wb-nip-2026-08-13",
+      "series": "game1_wbg_price_1m.jsonl",
+      "labels": [
+        "B4_直线阴跌"
+      ],
+      "low": 0.001,
+      "high": 0.525,
+      "low_time": "15:49",
+      "review_status": "待复核",
+      "note": ""
+    }
+  ]
+}

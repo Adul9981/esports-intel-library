@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OddsIntel 内部预览 · 情报台</title>
+<style>
+:root{--bg:#f5f5f7;--card:#ffffff;--ink:#1d1d1f;--sub:#6e6e73;--line:#e5e5ea;--accent:#0071e3;--green:#1e8e3e;--amber:#b45309;--red:#c92a2a;--purple:#7048e8}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.55;padding:24px 16px 60px}
+.wrap{max-width:960px;margin:0 auto}
+header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,#0071e3,#5ac8fa);color:#fff;display:grid;place-items:center;font-weight:800;font-size:16px}
+h1{font-size:24px;font-weight:700}
+.sub{color:var(--sub);font-size:13px;margin-bottom:18px}
+.badge{font-size:11px;font-weight:600;color:var(--accent);background:#e8f1fd;border-radius:999px;padding:3px 10px}
+.card{background:var(--card);border-radius:16px;padding:18px 20px;margin-bottom:14px;border:1px solid var(--line)}
+.card h2{font-size:16px;font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.meta{color:var(--sub);font-size:12px;margin-bottom:12px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:6px 0;font-size:13px;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:0}
+.row .k{color:var(--sub);flex:none}
+.row .v{text-align:right;font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:10px 0}
+.mini{background:#fafafa;border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.mini .lbl{font-size:11px;color:var(--sub)}
+.mini .val{font-size:16px;font-weight:700;margin-top:2px}
+.mini .note{font-size:11px;color:var(--sub);margin-top:2px}
+table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px}
+th{font-size:11px;color:var(--sub);font-weight:500;text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:8px;border-bottom:1px solid var(--line);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.chip{display:inline-flex;font-size:11px;font-weight:600;border-radius:999px;padding:2px 9px;margin:2px 4px 2px 0}
+.c-green{color:var(--green);background:#eaf7ef}
+.c-amber{color:var(--amber);background:#fdf3e3}
+.c-red{color:var(--red);background:#fdeaea}
+.c-blue{color:var(--accent);background:#e8f1fd}
+.c-purple{color:var(--purple);background:#f1ecfd}
+.tag{font-size:10.5px;font-weight:600;border-radius:6px;padding:2px 7px;background:#f2f2f4;color:var(--sub)}
+.tag.win{color:var(--green);background:#eaf7ef}
+.tag.loss{color:var(--red);background:#fdeaea}
+.note{font-size:12px;color:var(--sub);margin-top:8px}
+.hl{color:var(--accent);font-weight:600}
+.hl.red{color:var(--red)}
+.hl.green{color:var(--green)}
+.hl.amber{color:var(--amber)}
+footer{margin-top:16px;font-size:11.5px;color:var(--sub);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px}
+@media (max-width:640px){h1{font-size:20px}.card{padding:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">OI</div>
+    <div>
+      <h1>OddsIntel 内部预览 · 情报台</h1>
+      <div class="sub">只读情报预览 · 数据截至 2026-08-18 · 全部为真实数据（扫描 / 快照 / 弹幕 / 形态库）</div>
+    </div>
+    <span class="badge">内部预览版</span>
+  </header>
+
+  <div class="card">
+    <h2>今日比赛（真实扫描 · 2026-08-17 20:32 北京时间，live_scan 只读）</h2>
+    <div class="meta">来源：reports/opportunity_scan_2026-08-17.md · 抓取 2341 事件 / 白名单匹配 68 / 最终赛事 14 / 候选 9 · 08-18 需重扫刷新</div>
+    <table>
+      <thead><tr><th>联赛</th><th>赛制</th><th>对阵</th><th>状态</th><th>关注点</th></tr></thead>
+      <tbody>
+        <tr><td>LPL</td><td>BO3</td><td>Weibo vs IG</td><td><span class="tag win">已进行</span></td><td>lol-wb-ig1-2026-08-16</td></tr>
+        <tr><td>KeSPA Cup</td><td>BO5</td><td>T1 vs DN SOOPers</td><td><span class="tag loss">已结束 · DNF 3:1</span></td><td><span class="hl red">T1 系列赛领先被翻</span></td></tr>
+        <tr><td>LCK CL</td><td>BO3</td><td>DRX Ch. vs HLE Ch.</td><td><span class="tag win">已进行</span></td><td>lol-drxc-hle-2026-08-17</td></tr>
+        <tr><td>LEC</td><td>BO3</td><td>NAVI vs TH</td><td><span class="tag">已结束</span></td><td>TH 2:0（弹幕确认）</td></tr>
+        <tr><td>LEC</td><td>BO3</td><td>GIANTX vs KC</td><td><span class="tag">08-18</span></td><td>弹幕场（1903 条）</td></tr>
+        <tr><td>LCK CL</td><td>BO3</td><td>DNSC vs NSEA</td><td><span class="tag">08-18</span></td><td>lol-dnsc-nsea-2026-08-18</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>赛前档案卡 · T1 vs DN SOOPers（真实快照 08-17，BO5 KeSPA Cup 季后赛）</h2>
+    <div class="meta">来源：docs/data/snapshots/lol-t1-dnf-2026-08-17（1 分钟粒度，每市场 1440+ 点）· 复盘 knowledge/reviews/2026-08-17_lol-t1-dnf-2026-08-17_g1g2.md</div>
+    <div class="grid">
+      <div class="mini"><div class="lbl">系列赛结果</div><div class="val">DNF 3:1</div><div class="note">G1 T1 赢 → G2-G4 DNF 赢</div></div>
+      <div class="mini"><div class="lbl">T1 单局路径</div><div class="val">G1 33c→100c</div><div class="note">首局下狗翻盘</div></div>
+      <div class="mini"><div class="lbl">T1 被翻点</div><div class="val">G2 78.5c→0.05c</div><div class="note">单局尾盘反转</div></div>
+      <div class="mini"><div class="lbl">Moneyline</div><div class="val">73.5c→0.05c</div><div class="note">系列赛领先崩盘</div></div>
+    </div>
+    <div class="row"><span class="k">T1 近期档案</span><span class="v">08-03 vs NS：G1 4.5c→100c 深反；Moneyline 79.5c→0.5c 被翻 ｜ 08-08 vs HLE：G1 99.95c 压制 ｜ 08-17 vs DNF：G1 赢后 1:3 被翻</span></div>
+    <div class="row"><span class="k">关注点（历史统计）</span><span class="v"><span class="hl red">T1 系列赛领先崩盘已二次出现（08-03 / 08-17）</span>；G2 曾 78.5c 高位归零</span></div>
+    <div class="note">以上为历史统计与观察，不作预测；样本小，朋友历史数据接入后全量回填。</div>
+  </div>
+
+  <div class="card">
+    <h2>反转统计视图（黄金样本 156 条）</h2>
+    <div class="meta">口径：docs/data/classifier_golden_set.json（2026-08-14 生成）· 180 个标签</div>
+    <div class="row"><span class="k">家族占比</span><span class="v">反转 A <span class="hl">47%</span> · 崩塌 B <span class="hl.red">34%</span> · 压制 13% · 未知 6% · 震荡 C 1%</span></div>
+    <div class="row"><span class="k">高频形态</span><span class="v">B4 直线阴跌 26% · A2 中位U型 19% · A1 极值反转 14% · 压制 13% · B2 死亡螺旋 8%</span></div>
+    <table>
+      <thead><tr><th>联赛</th><th>反转 A</th><th>崩塌 B</th><th>压制</th><th>未知</th></tr></thead>
+      <tbody>
+        <tr><td>LPL</td><td>22</td><td>15</td><td>3</td><td>1</td></tr>
+        <tr><td>LCK</td><td>26</td><td>12</td><td>4</td><td>2</td></tr>
+        <tr><td>CS2</td><td>12</td><td>18</td><td>5</td><td>7</td></tr>
+        <tr><td>Dota2</td><td>7</td><td>7</td><td>1</td><td>0</td></tr>
+        <tr><td>LEC / LCP</td><td>6</td><td>1</td><td>6</td><td>0</td></tr>
+      </tbody>
+    </table>
+    <div class="row"><span class="k">队伍倾向</span><span class="v">DNS→深反 ×4 · BLG/BFX→崩塌 · WE→深反+阴跌 · DK/TES/TT→中位 · K27→深反 · FOKUS/Liquid→折价修复 · KC→压制</span></div>
+  </div>
+
+  <div class="card">
+    <h2>形态气候（巡检 2026-08-15，187 序列 / 49 组）</h2>
+    <div class="meta">来源：reports/pattern_audit_2026-08-15.md · 高频形态累计计数（与黄金样本占比口径不同，分开标注）</div>
+    <div class="chiprow">
+      <span class="chip c-blue">B4 直线阴跌 66</span><span class="chip c-blue">A2 中位U型 44</span>
+      <span class="chip c-blue">C2 开局碾压 21</span><span class="chip c-blue">A3 折价修复 16</span>
+      <span class="chip c-blue">A1 极值反转 15</span><span class="chip c-red">压制 13</span>
+      <span class="chip c-purple">未知 12</span><span class="chip c-blue">A4 下狗反转 11</span>
+      <span class="chip c-blue">A5 W型双底 9</span><span class="chip c-blue">A6 反弹确认 8</span>
+      <span class="chip c-red">B2 死亡螺旋 7</span>
+    </div>
+    <div class="note">"今日形态气候"上线时按"昨日定稿 + 今日滚动"双显，每场结算后自动更新（见框架文档）。</div>
+  </div>
+
+  <div class="card">
+    <h2>弹幕情报（真实 · 观众集体智慧）</h2>
+    <div class="meta">来源：knowledge/DANMU_INTEL.md + reports/intel_danmu_*.html · 只展示聚合结论，不裸展示弹幕流与用户身份</div>
+    <div class="grid">
+      <div class="mini"><div class="lbl">TH vs Navi（08-17）</div><div class="val">2262 条</div><div class="note">TH 2:0 · <span class="hl amber">信息差：嘴上看衰、比分领先</span></div></div>
+      <div class="mini"><div class="lbl">KC vs GX（08-18）</div><div class="val">1903 条</div><div class="note">LEC 常规赛弹幕场</div></div>
+      <div class="mini"><div class="lbl">密度峰值</div><div class="val">45 条/分钟</div><div class="note">23:57 UTC · 关键时刻检测</div></div>
+      <div class="mini"><div class="lbl">灰信号</div><div class="val">直播间梗</div><div class="note">"接 / 小卖部"不作假赛证据，只标风险</div></div>
+    </div>
+    <div class="note">弹幕×价格对照按 DANMU_POLYMARKET_ROADMAP 阶段 1 验证中（先做"市场存在性检查"）。</div>
+  </div>
+
+  <footer>
+    <span>仅提供历史统计与情报分析，不构成任何投资建议</span>
+    <span>数据源：Polymarket CLOB · 虎牙弹幕 · 自采 1 分钟快照 · 形态黄金样本</span>
+  </footer>
+</div>
+</body>
+</html>
