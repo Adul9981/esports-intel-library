@@ -164,10 +164,10 @@
 2. 特别重点关注的假赛队伍（疑似，非结论）：
    LEC VIT（GIANTX vs VIT G2 高度疑似）、LEC 整体（明眼观察）、LPL 高被翻率队伍（BLG 等）
 3. 重点关注账户（交易者拆解域）：
-   e46m3（主目标，docs/forensics/cases/README.md）、
+   e46m3（主目标，archive/forensics/cases/README.md）、
    fkigedgjdgwbg（EDG vs LGD 拉盘追买 $277,608）、
    拉盘主力钱包 0xe16e8a3c... / 0xb0417f... / 0xa16a13...（待同源排查）
 4. 假赛高盈利账号（待拆解确认）：
    fkigedgjdgwbg（疑似假赛信息跟进）、其他随 forensics 拆解补充
-维护：队伍维度更新到 TEAM_PROFILES / LEAGUE_PROFILES；账户维度更新到 docs/forensics/cases/README.md。
+维护：队伍维度更新到 TEAM_PROFILES / LEAGUE_PROFILES；账户维度更新到 archive/forensics/cases/README.md。
 ```

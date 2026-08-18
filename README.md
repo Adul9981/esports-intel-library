@@ -17,8 +17,6 @@
 | [docs/danmu-intel.md](docs/danmu-intel.md) | 弹幕情报体系（聚合结论，不裸展示用户身份） |
 | [docs/framework/](docs/framework/) | 方法论与策略框架（形态库 / 策略库 / 中位80 / 四阶段窗口） |
 | [docs/knowledge/](docs/knowledge/) | 画像与信号库（队伍 / 联赛 / 英雄 / 主播 / 弹幕规则 / EDGE LOG） |
-| [docs/forensics/](docs/forensics/) | 交易者拆解域（账户 / 案例 / 合约规则） |
-| [docs/runbook/](docs/runbook/) | 交易速查手册（盘中速查 / 预期情景） |
 | [docs/task/](docs/task/) | 路线图与交接文档（弹幕×行情 / 主观情报库 / 策略研究） |
 | [docs/reports/](docs/reports/) | 数据报告（弹幕简报 / 回测 / 扫描 / 形态巡检） |
 | [tools/](tools/) | 弹幕与情报加工脚本（抓取 / 提炼 / 监控 / 报告 / 分类 / 统计） |
@@ -53,6 +51,7 @@
 3. 假赛内容一律"疑似 / 风险观察"标注，只给信号 + 依据 + 来源，不断言。
 4. 弹幕 / 解说等主观数据只展示聚合结论与统计，不裸展示弹幕流与用户身份。
 5. 所有统计标注样本量与时间窗口，小样本不伪装成高置信结论。
+6. archive/ 为暂不展示内容（交易者拆解域、执行手册），保留在 git 历史，需要时可恢复。
 ```
 
 ## 预览页
