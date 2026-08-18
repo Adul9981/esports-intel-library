@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "intel_signal.schema.json",
+  "title": "Intel Signal (主观情报信号)",
+  "description": "虎牙主播/解说/弹幕等主观情报源的结构化信号契约。对应 docs/task/INTEL_SIGNAL_LIBRARY_PLAN.md 第 3 节字段。",
+  "type": "object",
+  "required": [
+    "version",
+    "updated_at",
+    "signals"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "schema 版本，当前为 1.0"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "库最近更新时间（ISO 8601，UTC）"
+    },
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "date",
+          "event_slug",
+          "source_person",
+          "source_type",
+          "credibility",
+          "quote",
+          "tags",
+          "object",
+          "object_type",
+          "direction",
+          "timing",
+          "verification"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^IS-\\d{4}-\\d{2}-\\d{2}-\\d{3}$",
+            "description": "信号唯一编号，格式 IS-YYYY-MM-DD-NNN"
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "采集日期 YYYY-MM-DD"
+          },
+          "event_slug": {
+            "type": "string",
+            "minLength": 1,
+            "description": "比赛 slug，如 lol-t1-hle1-2026-08-08"
+          },
+          "source_person": {
+            "type": "string",
+            "minLength": 1,
+            "description": "来源人/来源房间（如 957 / 二路解说多人 / 弹幕聚合）"
+          },
+          "source_type": {
+            "enum": [
+              "caster_co",
+              "caster_official",
+              "streamer",
+              "official",
+              "community",
+              "danmaku",
+              "user_observation"
+            ],
+            "description": "来源类型：caster_co=二路解说（职业背景，首选）/ caster_official=官方一路解说 / streamer=主播（非解说职业背景）/ official=官方公告 / community=社区或朋友聊天 / danmaku=弹幕聚合 / user_observation=用户观察"
+          },
+          "credibility": {
+            "enum": ["high", "medium", "low"],
+            "description": "静态可信度初判；样本累计后按 来源 x 标签 x 应验率 动态校准（见规划层 10.10）"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "description": "原话摘录（短摘录，注意引用边界；不存全文转录）"
+          },
+          "tags": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "enum": ["style", "form", "proficiency", "bp", "tempo", "event"]
+            },
+            "description": "信号标签：style=风格/打法 / form=状态 / proficiency=熟练度 / bp=BP/阵容 / tempo=节奏/比赛阅读 / event=事件/风险"
+          },
+          "object": {
+            "type": "string",
+            "minLength": 1,
+            "description": "对象（队伍/选手/联赛），未知可填待确认"
+          },
+          "object_type": {
+            "enum": ["team", "player", "league", "unknown"],
+            "description": "对象类型"
+          },
+          "direction": {
+            "type": "string",
+            "minLength": 1,
+            "description": "方向含义：利好哪侧/如何解读；无法对应到方向时只记录不交易"
+          },
+          "beneficial_side": {
+            "type": ["string", "null"],
+            "description": "结构化利好侧（队伍名），未知为 null"
+          },
+          "timing": {
+            "type": "object",
+            "required": ["phase"],
+            "properties": {
+              "phase": {
+                "enum": ["pre_match", "in_game", "post_match"],
+                "description": "采集阶段：赛前/赛中/赛后"
+              },
+              "minute": {
+                "type": ["integer", "null"],
+                "minimum": 1,
+                "description": "比赛分钟（赛中时填）"
+              },
+              "stream_offset_min": {
+                "type": ["integer", "null"],
+                "minimum": 0,
+                "description": "直播/录播流内偏移分钟（与比赛分钟/UTC 对齐用，可选）"
+              },
+              "utc": {
+                "type": ["string", "null"],
+                "format": "date-time",
+                "description": "采集时刻 UTC（市场快照对齐用）"
+              },
+              "note": {
+                "type": "string",
+                "description": "采集时机补充说明"
+              }
+            }
+          },
+          "market_verification": {
+            "type": "object",
+            "description": "采集前后市场价差；缺失必须标注，不假装完整",
+            "properties": {
+              "market": {
+                "type": ["string", "null"],
+                "description": "市场（game1/game2/moneyline）"
+              },
+              "price_before": {
+                "type": ["number", "null"],
+                "minimum": 0,
+                "maximum": 1,
+                "description": "采集前价格（c 为 0-1 小数）"
+              },
+              "price_after": {
+                "type": ["number", "null"],
+                "minimum": 0,
+                "maximum": 1,
+                "description": "采集后价格（c 为 0-1 小数）"
+              },
+              "note": {
+                "type": "string",
+                "description": "价差解读或缺失说明"
+              }
+            }
+          },
+          "verification": {
+            "type": "object",
+            "required": ["status"],
+            "properties": {
+              "status": {
+                "enum": ["pending", "confirmed", "partially_confirmed", "refuted"],
+                "description": "赛后应验：pending=待验证 / confirmed=应验 / partially_confirmed=部分应验 / refuted=未应验"
+              },
+              "note": {
+                "type": "string",
+                "description": "应验/未应验的依据与复盘说明"
+              },
+              "verified_at": {
+                "type": ["string", "null"],
+                "format": "date-time",
+                "description": "回填时间"
+              }
+            }
+          },
+          "timeframe": {
+            "enum": ["durable", "short_lived"],
+            "description": "信号时效：durable=进长期队伍画像 / short_lived=近期状态（约 1-2 周有效）"
+          },
+          "expected_patterns": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "预期情形可映射的形态（如 B4 / A1 / A2），见 REVERSAL_PATTERN_LIBRARY"
+          },
+          "related_signal_ids": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "同观点共识信号 / 相反观点的关联编号（去重与冲突展示用）"
+          },
+          "linked_profiles": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "沉淀到的画像文件引用（如 TEAM_PROFILES#HLE）"
+          },
+          "source_url": {
+            "type": ["string", "null"],
+            "description": "直播间/录播链接（可选，个人留档）"
+          },
+          "recorded_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "录入系统时间"
+          },
+          "note": {
+            "type": "string",
+            "description": "自由备注"
+          }
+        }
+      }
+    }
+  }
+}

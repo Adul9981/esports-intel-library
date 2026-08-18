@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>硕硕直播间弹幕情报简报（持续抓取）</title>
+<style>
+:root { --bg:#f5f5f7; --card:#ffffff; --ink:#1d1d1f; --sub:#86868b; --accent:#0071e3; --line:#e8e8ed; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif; line-height:1.55; padding:24px 16px 48px; }
+.wrap { max-width:760px; margin:0 auto; }
+h1 { font-size:24px; font-weight:700; letter-spacing:-0.01em; margin-bottom:6px; }
+.sub { color:var(--sub); font-size:14px; margin-bottom:20px; }
+.stats { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-bottom:20px; }
+.stat { background:var(--card); border-radius:16px; padding:16px; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+.stat .num { font-size:28px; font-weight:700; color:var(--accent); }
+.stat .lbl { color:var(--sub); font-size:13px; margin-top:2px; }
+.card { background:var(--card); border-radius:16px; padding:18px; margin-bottom:14px; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+h2 { font-size:17px; font-weight:600; margin-bottom:2px; }
+.meta { color:var(--sub); font-size:12px; margin-bottom:10px; }
+.dm { padding:7px 0; border-bottom:1px solid var(--line); font-size:14px; }
+.dm:last-child { border-bottom:none; }
+.nick { color:var(--accent); font-weight:600; margin-right:8px; }
+.kw { display:inline-block; background:#f0f4ff; color:var(--accent); border-radius:999px; padding:5px 12px; margin:3px 4px 3px 0; font-size:13px; }
+.kw b { margin-left:5px; opacity:.7; }
+.note { color:var(--sub); font-size:12px; margin-top:18px; line-height:1.7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>硕硕直播间弹幕情报简报（持续抓取）</h1>
+  <p class="sub">数据源：docs/data/danmu/shuoshuo/2026-08-17_323444.jsonl · 弹幕为低可信度信号，需聚合参考</p>
+  <div class="stats">
+    <div class="stat"><div class="num">212</div><div class="lbl">弹幕总数</div></div>
+    <div class="stat"><div class="num">117</div><div class="lbl">活跃用户</div></div>
+    <div class="stat"><div class="num">08-17 23:42 – 08-18 00:03</div><div class="lbl">抓取窗口</div></div>
+    <div class="stat"><div class="num">9.9</div><div class="lbl">条/分钟</div></div>
+  </div>
+  <section class="card">
+    <h2>高频关键词</h2>
+    <p class="meta">按出现次数排序（弹幕文本匹配）</p>
+    <div><span class="kw">接<b>18</b></span><span class="kw">阵容<b>15</b></span><span class="kw">TH<b>13</b></span><span class="kw">菜<b>9</b></span><span class="kw">无敌<b>5</b></span><span class="kw">48<b>5</b></span><span class="kw">人头<b>4</b></span><span class="kw">泰坦<b>4</b></span><span class="kw">蛇女<b>4</b></span><span class="kw">皇子<b>4</b></span><span class="kw">龙魂<b>4</b></span><span class="kw">牛头<b>4</b></span><span class="kw">Poby<b>3</b></span><span class="kw">hype<b>3</b></span><span class="kw">寒冰<b>3</b></span><span class="kw">6.5<b>2</b></span><span class="kw">强<b>2</b></span><span class="kw">经济<b>2</b></span><span class="kw">KT<b>2</b></span><span class="kw">7.5<b>1</b></span><span class="kw">怂<b>1</b></span><span class="kw">LPL<b>1</b></span><span class="kw">LEC<b>1</b></span></div>
+  </section>
+  <section class="card"><h2>阵容/BP</h2><p class="meta">命中 19 条（样本 6 条）</p><div class="dm"><span class="nick">龙卷风摧毀停车场</span><span class="txt">牙仙子一颗顶两颗都不选，人机</span></div><div class="dm"><span class="nick">浅念TuT</span><span class="txt">不选三？</span></div><div class="dm"><span class="nick">A你的眼睛会发光吗</span><span class="txt">对面阵容没刚出破败不如羊刀</span></div><div class="dm"><span class="nick">木马</span><span class="txt">什么泰坦物法的，选了大招能转0.5秒不</span></div><div class="dm"><span class="nick">LuLu13</span><span class="txt">wei和牛头强开阵容就没主动开过几次</span></div><div class="dm"><span class="nick">甜盘子圆尾娇鹟</span><span class="txt">把把选个后期阵容然后前期被打爆</span></div></section><section class="card"><h2>队伍评价</h2><p class="meta">命中 18 条（样本 6 条）</p><div class="dm"><span class="nick">野馬ZHXI</span><span class="txt">无敌了</span></div><div class="dm"><span class="nick">你好蠕</span><span class="txt">牙你无敌了</span></div><div class="dm"><span class="nick">清澈</span><span class="txt">菜的流脓</span></div><div class="dm"><span class="nick">LuLu13</span><span class="txt">右边是我见过最怂的队伍</span></div><div class="dm"><span class="nick">飘雪金毛童</span><span class="txt">hype之前不是说很强嘛</span></div><div class="dm"><span class="nick">褐霸鹟氽鲤鱼</span><span class="txt">右边打野菜狗一个</span></div></section><section class="card"><h2>选手状态</h2><p class="meta">命中 8 条（样本 6 条）</p><div class="dm"><span class="nick">清澈</span><span class="txt">Poby的蛇女我放心</span></div><div class="dm"><span class="nick">飘雪金毛童</span><span class="txt">hype之前不是说很强嘛</span></div><div class="dm"><span class="nick">飘雪金毛童</span><span class="txt">之前og辅助mithy</span></div><div class="dm"><span class="nick">低调但实力</span><span class="txt">poby昨天的大骚蛇菜得吓人</span></div><div class="dm"><span class="nick">奶酪肉桂醛</span><span class="txt">poby看起来好有劲啊</span></div><div class="dm"><span class="nick">哈工刘德华1</span><span class="txt">这个hype是真菜</span></div></section><section class="card"><h2>盘口/数字</h2><p class="meta">命中 37 条（样本 6 条）</p><div class="dm"><span class="nick">我是一颗小虎牙</span><span class="txt">上把人头多少</span></div><div class="dm"><span class="nick">我是一颗小虎牙</span><span class="txt">-6.5够了吗</span></div><div class="dm"><span class="nick">没想散1</span><span class="txt">上把人头多少啊</span></div><div class="dm"><span class="nick">YuPeNg</span><span class="txt">人头多少 大哥说一下</span></div><div class="dm"><span class="nick">。</span><span class="txt">人头多少怎么样</span></div><div class="dm"><span class="nick">心头好</span><span class="txt">-6.5有</span></div></section><section class="card"><h2>比赛进程</h2><p class="meta">命中 9 条（样本 6 条）</p><div class="dm"><span class="nick">甜盘子圆尾娇鹟</span><span class="txt">上把二十分钟能能龙魂一年都见不到几次</span></div><div class="dm"><span class="nick">褐霸鹟氽鲤鱼</span><span class="txt">玩牛头不越塔玩什么牛</span></div><div class="dm"><span class="nick">甜盘子圆尾娇鹟</span><span class="txt">经济平的死一个牛头龙魂直接放历史第一次见</span></div><div class="dm"><span class="nick">甜盘子圆尾娇鹟</span><span class="txt">右边开局就少一个打野拿头玩</span></div><div class="dm"><span class="nick">楼角玉眼带</span><span class="txt">右边不控小龙的</span></div><div class="dm"><span class="nick">叁好</span><span class="txt">Th平经济的龙一条不接的你跟他聊阵容</span></div></section>
+  <section class="card">
+    <h2>活跃用户</h2>
+    <p class="meta">发言最多（示例）</p>
+    <div class="dm">善良的小淼(9)、LuLu13(8)、甜盘子圆尾娇鹟(8)、我是一颗小虎牙(7)、哈工刘德华1(6)、Miracle(6)</div>
+  </section>
+  <p class="note">
+    说明：本页由 tools/danmu_report.py 从 JSONL 弹幕数据自动生成。<br>
+    弹幕可信度低（需聚合、去噪），直播间梗（如"小卖部/健身房"）不属于比赛情报；
+    每条弹幕可溯源到 JSONL 原文，仅供情报参考，不作为交易依据。
+  </p>
+</div>
+</body>
+</html>

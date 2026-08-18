@@ -15,6 +15,14 @@
 | [docs/experience-insights.md](docs/experience-insights.md) | 已确认经验清单（30+ 条，含验证状态） |
 | [docs/risk-library.md](docs/risk-library.md) | 假赛特征库 + 关注名单（疑似标注，非结论） |
 | [docs/danmu-intel.md](docs/danmu-intel.md) | 弹幕情报体系（聚合结论，不裸展示用户身份） |
+| [docs/framework/](docs/framework/) | 方法论与策略框架（形态库 / 策略库 / 中位80 / 四阶段窗口） |
+| [docs/knowledge/](docs/knowledge/) | 画像与信号库（队伍 / 联赛 / 英雄 / 主播 / 弹幕规则 / EDGE LOG） |
+| [docs/forensics/](docs/forensics/) | 交易者拆解域（账户 / 案例 / 合约规则） |
+| [docs/runbook/](docs/runbook/) | 交易速查手册（盘中速查 / 预期情景） |
+| [docs/task/](docs/task/) | 路线图与交接文档（弹幕×行情 / 主观情报库 / 策略研究） |
+| [docs/reports/](docs/reports/) | 数据报告（弹幕简报 / 回测 / 扫描 / 形态巡检） |
+| [tools/](tools/) | 弹幕与情报加工脚本（抓取 / 提炼 / 监控 / 报告 / 分类 / 统计） |
+| [schemas/](schemas/) | 数据字段契约（情报信号 schema 等） |
 | [data/](data/) | 数据统计：反转统计 / 联赛分布 / 赛前档案卡示例 / 黄金样本 |
 | [preview/](preview/) | 交互预览页（网站框架 + 内部预览版，SAP/Apple 风格） |
 
@@ -53,3 +61,20 @@
 网站框架（产品长什么样）：preview/v1_framework_preview.html
 内部预览版（真实数据情报台）：preview/intel_library_preview.html
 ```
+
+## 弹幕情报脚本（tools/）
+
+```text
+fetch_huya_danmu.py     虎牙直播弹幕实时抓取（WebSocket，断线重连，JSONL 落盘）
+danmu_intel.py          弹幕情报提炼（队伍/选手/盘口/局势/灰信号/密度峰值）
+danmu_live_monitor.py   实时监控（5 分钟刷新 HTML）
+danmu_report.py         弹幕数据 -> SAP/Apple 风格 HTML 简报
+record_intel_signal.py  解说/主播信号结构化录入（配合 intel_stats.py 统计）
+edge_stats.py           边际信息（有信息差 vs 纯信心）分组统计
+classify_pattern.py     1 分钟价格序列形态分类（A/B/C 家族）
+pattern_audit.py        形态库巡检（复验计数 / 未知形态观察池）
+fetch_price_snapshot.py 1 分钟价格快照抓取（CLOB prices-history）
+```
+
+> 说明：脚本依赖 Python 3 与项目内文档约定的数据路径；弹幕原始 JSONL 含用户身份，
+> **不进本公开仓库**，本仓库只保留聚合结论与统计。
